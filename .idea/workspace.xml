@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b57d40f-bd39-4d45-a5a3-bf661a88a6ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/weather_data_pipeline.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/weather_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestion/forecast_ingestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestion/weather_data_ingestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processing/transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduled_ingestion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/json_writer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ingestion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualization/dropdown_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualization/plot_weather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/weather_ingestion.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/weather_ingestion.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +38,7 @@
     "Python.weather_data_ingestor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743499791659</updated>
       <workItem from="1743499795326" duration="17291000" />
-      <workItem from="1746354869696" duration="24013000" />
+      <workItem from="1746354869696" duration="25854000" />
     </task>
     <servers />
   </component>
