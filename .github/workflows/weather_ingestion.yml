@@ -2,37 +2,39 @@ name: Scheduled Weather Ingestion
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour — change to '*/1 * * * *' for every minute (only for testing)
-  workflow_dispatch:      # Allows manual runs
+    - cron: '*/1 * * * *'  # Every minute — for testing
+  workflow_dispatch:        # Allows manual trigger
 
 jobs:
   run-ingestion:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧾 Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: 🐍 Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: ▶️ Run Scheduled Ingestion
+      - name: Run Scheduled Ingestion
         run: |
           python scheduled_ingestion.py
+        env:
+          API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
 
-      - name: 💾 Commit & Push Output
+      - name: Commit & Push Output
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add data/weather_data.json
-          git commit -m "Update weather data"
+          git diff --cached --quiet || git commit -m "Update weather data"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
