@@ -24,3 +24,4 @@ while True:
         save_to_json(all_weather_data, "data/historical_weather.json")
         print("Saved data to historical_weather.json DONE!!!")
     time.sleep(3600)
+print("✅ Weather ingestion complete.")

@@ -14845,5 +14845,152 @@
         "humidity_percent": 87,
         "weather_description": "overcast clouds",
         "timestamp": "2025-05-06T13:07:27.218764"
+    },
+    {
+        "city": "Amsterdam",
+        "temperature_c": 12.23,
+        "humidity_percent": 70,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:32.779079"
+    },
+    {
+        "city": "Amsterdam",
+        "temperature_c": 12.23,
+        "humidity_percent": 70,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:32.779079"
+    },
+    {
+        "city": "Hamburg",
+        "temperature_c": 14.92,
+        "humidity_percent": 55,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:33.200076"
+    },
+    {
+        "city": "Amsterdam",
+        "temperature_c": 12.23,
+        "humidity_percent": 70,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:32.779079"
+    },
+    {
+        "city": "Hamburg",
+        "temperature_c": 14.92,
+        "humidity_percent": 55,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:33.200076"
+    },
+    {
+        "city": "Berlin",
+        "temperature_c": 15.62,
+        "humidity_percent": 54,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:33.755795"
+    },
+    {
+        "city": "Amsterdam",
+        "temperature_c": 12.23,
+        "humidity_percent": 70,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:32.779079"
+    },
+    {
+        "city": "Hamburg",
+        "temperature_c": 14.92,
+        "humidity_percent": 55,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:33.200076"
+    },
+    {
+        "city": "Berlin",
+        "temperature_c": 15.62,
+        "humidity_percent": 54,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:33.755795"
+    },
+    {
+        "city": "Prague",
+        "temperature_c": 13.5,
+        "humidity_percent": 45,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:34.190128"
+    },
+    {
+        "city": "Amsterdam",
+        "temperature_c": 12.23,
+        "humidity_percent": 70,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:32.779079"
+    },
+    {
+        "city": "Hamburg",
+        "temperature_c": 14.92,
+        "humidity_percent": 55,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:33.200076"
+    },
+    {
+        "city": "Berlin",
+        "temperature_c": 15.62,
+        "humidity_percent": 54,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:33.755795"
+    },
+    {
+        "city": "Prague",
+        "temperature_c": 13.5,
+        "humidity_percent": 45,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:34.190128"
+    },
+    {
+        "city": "Vienna",
+        "temperature_c": 13.67,
+        "humidity_percent": 65,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:34.848114"
+    },
+    {
+        "city": "Amsterdam",
+        "temperature_c": 12.23,
+        "humidity_percent": 70,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:32.779079"
+    },
+    {
+        "city": "Hamburg",
+        "temperature_c": 14.92,
+        "humidity_percent": 55,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:33.200076"
+    },
+    {
+        "city": "Berlin",
+        "temperature_c": 15.62,
+        "humidity_percent": 54,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:33.755795"
+    },
+    {
+        "city": "Prague",
+        "temperature_c": 13.5,
+        "humidity_percent": 45,
+        "weather_description": "clear sky",
+        "timestamp": "2025-05-06T15:17:34.190128"
+    },
+    {
+        "city": "Vienna",
+        "temperature_c": 13.67,
+        "humidity_percent": 65,
+        "weather_description": "broken clouds",
+        "timestamp": "2025-05-06T15:17:34.848114"
+    },
+    {
+        "city": "Budapest",
+        "temperature_c": 13.57,
+        "humidity_percent": 83,
+        "weather_description": "overcast clouds",
+        "timestamp": "2025-05-06T15:17:35.165130"
     }
 ]
