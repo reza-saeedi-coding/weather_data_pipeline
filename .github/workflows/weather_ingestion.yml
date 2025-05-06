@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 Checkout Repository
+    - name:  Checkout Repository
       uses: actions/checkout@v3
 
-    - name: 🐍 Set up Python
+    - name:  Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.12'
@@ -23,6 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: ▶️ Run Scheduled Ingestion
+    - name:  Run Scheduled Ingestion
       run: |
-        python visualization/scheduled_ingestion.py
+        python ingestion/scheduled_ingestion.py
+    
