@@ -1,9 +1,10 @@
 name: Scheduled Weather Ingestion
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'  # Every minute — for testing
-  workflow_dispatch:        # Allows manual trigger
+  # schedule:
+  #   - cron: '*/1 * * * *'  # Every minute — for testing
+  workflow_dispatch:
+
 
 jobs:
   run-ingestion:
