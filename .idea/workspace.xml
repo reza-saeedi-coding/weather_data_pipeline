@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b57d40f-bd39-4d45-a5a3-bf661a88a6ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/weather_ingestion.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/weather_ingestion.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/weather_ingestion.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/historical_weather.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/historical_weather.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/temperature_comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/temperature_comparison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scheduled_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduled_ingestion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,25 +32,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.dropdown_plot.executor": "Run",
-    "Python.plot_weather.executor": "Run",
-    "Python.scheduled_ingestion.executor": "Run",
-    "Python.test_ingestion.executor": "Run",
-    "Python.transformer.executor": "Run",
-    "Python.weather_data_ingestor.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.dropdown_plot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_weather.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scheduled_ingestion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_ingestion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.transformer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather_data_ingestor.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,7 +67,12 @@
       <option name="presentableId" value="Default" />
       <updated>1743499791659</updated>
       <workItem from="1743499795326" duration="17291000" />
-      <workItem from="1746354869696" duration="27448000" />
+      <workItem from="1746354869696" duration="31163000" />
+      <workItem from="1746553164870" duration="1355000" />
+      <workItem from="1746555145454" duration="13000" />
+      <workItem from="1746629251731" duration="1388000" />
+      <workItem from="1748450791880" duration="67000" />
+      <workItem from="1748451143768" duration="1139000" />
     </task>
     <servers />
   </component>
@@ -75,10 +81,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/weather_data_pipeline$test_ingestion.coverage" NAME="test_ingestion Coverage Results" MODIFIED="1746528882015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/weather_data_pipeline$plot_weather.coverage" NAME="plot_weather Coverage Results" MODIFIED="1746545038194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualization" />
+    <SUITE FILE_PATH="coverage/weather_data_pipeline$plot_weather.coverage" NAME="plot_weather Coverage Results" MODIFIED="1746547166673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualization" />
     <SUITE FILE_PATH="coverage/weather_data_pipeline$weather_data_ingestor.coverage" NAME="weather_data_ingestor Coverage Results" MODIFIED="1746362866263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ingestion" />
-    <SUITE FILE_PATH="coverage/weather_data_pipeline$dropdown_plot.coverage" NAME="dropdown_plot Coverage Results" MODIFIED="1746545010247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualization" />
-    <SUITE FILE_PATH="coverage/weather_data_pipeline$scheduled_ingestion.coverage" NAME="scheduled_ingestion Coverage Results" MODIFIED="1746544651384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/weather_data_pipeline$dropdown_plot.coverage" NAME="dropdown_plot Coverage Results" MODIFIED="1746547882805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualization" />
+    <SUITE FILE_PATH="coverage/weather_data_pipeline$scheduled_ingestion.coverage" NAME="scheduled_ingestion Coverage Results" MODIFIED="1746553781949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/weather_data_pipeline$transformer.coverage" NAME="transformer Coverage Results" MODIFIED="1746365664521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
   </component>
 </project>
